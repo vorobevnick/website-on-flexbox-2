@@ -1,0 +1,44 @@
+%svg-common {
+	background: url("sprite-1115d30b.svg") no-repeat;
+}
+
+%-facebook {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+%-facebook-dims {
+	width: 24px;
+	height: 24px;
+}
+
+%-flickr3 {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+%-flickr3-dims {
+	width: 24px;
+	height: 24px;
+}
+
+%-instagram {
+	@extend %svg-common;
+	background-position: 0 100%;
+}
+
+%-instagram-dims {
+	width: 24px;
+	height: 24px;
+}
+
+%-twitter {
+	@extend %svg-common;
+	background-position: 100% 100%;
+}
+
+%-twitter-dims {
+	width: 24px;
+	height: 24px;
+}
+

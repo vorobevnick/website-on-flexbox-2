@@ -1,0 +1,9 @@
+@import "_mixins/font-face";
+
+@include font-face("muli-lt", "../fonts/MuliLight/MuliLight");
+@include font-face("muli-reg", "../fonts/MuliExtraLight/MuliExtraLight", 100);
+@include font-face("muli-reg", "../fonts/MuliRegular/MuliRegular");
+@include font-face("muli-reg", "../fonts/MuliSemiBold/MuliSemiBold", 600);
+@include font-face("muli-reg", "../fonts/MuliBlack/MuliBlack", 800);
+@include font-face("tri-reg", "../fonts/TrirongRegular/TrirongRegular");
+@include font-face("tri-reg", "../fonts/TrirongLight/TrirongLight", 200);
